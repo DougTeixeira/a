@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: #050008;
+    color: #ffffff;
+    animation: pointEvent 1s forwards;
+    animation-delay: 4s;
+    pointer-events: none;
+}
+
+.header {
+    font-size: 18px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+} 
+
+.home-content h2 {
+    padding: 0 20%;
+    text-align: center;
+}
+
+video {
+    border: 2px solid #000;
+    border-radius: 8px;
+}
+
